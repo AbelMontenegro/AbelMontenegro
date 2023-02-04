@@ -1,0 +1,66 @@
+
+body{padding: 30px; background-image: url("https://i.pinimg.com/564x/a6/65/0a/a6650a5a0a22348b01bc98781c8c4355.jpg");}
+
+header{ background-color: #221931; margin: 2; text-align: center; display: block;
+    height: 300px; border-radius: 300px;
+
+}
+header:hover{ background-image: url("https://discovertemplate.com/wp-content/uploads/2021/09/Media-and-Advertising-Animated-GIF-Icon-Pack_2.gif");
+ background-size: cover;}
+
+
+/*inf personal*/
+
+nav{background-color: aquamarine; 
+display: grid; grid-template-columns: repeat(5, 1fr);
+}
+nav span:hover{border: 2px solid rgb(0, 153, 255); }
+
+/*cuerpo*/
+
+.conteiner{display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 200px auto ;
+row-gap: 4px;
+column-gap: 5px;
+margin-top: 4px;
+
+}
+
+.conteiner > div{ background-color: rgb(236, 226, 211);
+    padding: 1em;
+}
+
+ .conteiner > div:hover{ border: 1px solid #cbb9d6; background-color: burlywood;
+}
+
+.conteiner > .est:hover{ background-image: url("");
+}
+
+
+.hab{grid-column: 1/3;}
+.conteiner > .hab:hover{ background-color: rgb(240, 240, 240); background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0lHpAQnie-1qHoDDyd4ly28PcUKpuHXye9VFuVFqFNyglwmEA0OpxrlCBIyXusZ3PeTc&usqp=CAU");
+background-repeat: no-repeat; background-position: right;
+}
+
+
+.exp{font-family: 'Libre Baskerville', serif; }
+
+
+
+.sobremi{ 
+    grid-column: 1/3;}
+.sobremi h2{ text-align: center; font-style: oblique; font-size: 2em;}
+.conteiner > .sobremi:hover{ background-image: url("https://i.pinimg.com/originals/e0/67/f8/e067f85e867c15608110c48259536632.gif");
+    background-repeat: no-repeat;  background-size: cover;
+    border: 2px solid rgb(117, 56, 56);}
+.conteiner > .sobremi > p{margin-bottom: 5px; font-style: italic;}
+
+
+
+/*bton de reinicio*/
+.boton{ color: crimson; border-bottom-style: dashed; float: right;
+}
+
+
+ 
